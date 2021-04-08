@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_281)
+[debug]       Load.loadUnit: plugins took 242.211214ms
+[debug]       Load.loadUnit: defsScala took 0.492684ms
+[debug] [Loading] Scanning directory /Users/jinhua/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jinhua/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 148.115523 ms
+[debug]           Load.resolveProject(global-plugins) took 99.307941ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/jinhua/.sbt/1.0/plugins, plugins: List(<none>))) took 325.425466ms
+[debug] [Loading] Done in /Users/jinhua/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 397.500754ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.482772ms
+[debug]     Load.loadUnit(file:/Users/jinhua/.sbt/1.0/plugins/, ...) took 653.190339ms
+[debug]   Load.apply: load took 1052.709772ms
+[debug]   Load.apply: resolveProjects took 27.640042ms
+[debug]   Load.apply: finalTransforms took 118.164321ms
+[debug]   Load.apply: config.delegates took 31.199453ms
+[debug]   Load.apply: Def.make(settings)... took 671.731022ms
+[debug]   Load.apply: structureIndex took 147.610607ms
+[debug]   Load.apply: mkStreams took 2.252674ms
+[info] loading global plugins from /Users/jinhua/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4902.373531ms
+[debug]           Load.loadUnit: plugins took 30.610392ms
+[debug]           Load.loadUnit: defsScala took 0.018615ms
+[debug] [Loading] Scanning directory /Users/jinhua/Documents/GitHub/CombFFT/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jinhua/Documents/GitHub/CombFFT/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.227542 ms
+[debug]               Load.resolveProject(combfft-build) took 1.892512ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id combfft-build, base: /Users/jinhua/Documents/GitHub/CombFFT/project, plugins: List(<none>))) took 6.00036ms
+[debug] [Loading] Done in /Users/jinhua/Documents/GitHub/CombFFT/project, returning: (combfft-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 8.900138ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.018084ms
+[debug]         Load.loadUnit(file:/Users/jinhua/Documents/GitHub/CombFFT/project/, ...) took 41.759836ms
+[debug]       Load.apply: load took 44.144465ms
+[debug]       Load.apply: resolveProjects took 0.22531ms
+[debug]       Load.apply: finalTransforms took 14.657716ms
+[debug]       Load.apply: config.delegates took 0.629695ms
+[debug]       Load.apply: Def.make(settings)... took 103.195839ms
+[debug]       Load.apply: structureIndex took 54.354695ms
+[debug]       Load.apply: mkStreams took 0.004033ms
+[info] loading project definition from /Users/jinhua/Documents/GitHub/CombFFT/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1770.430505ms
+[debug]     Load.loadUnit: defsScala took 0.003751ms
+[debug] [Loading] Scanning directory /Users/jinhua/Documents/GitHub/CombFFT
+[debug]       Load.loadUnit: mkEval took 14.288513ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jinhua/Documents/GitHub/CombFFT, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.007121 ms
+[info] loading settings for project combfft from build.sbt ...
+[debug]         Load.resolveProject(combfft) took 2.388073ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id combfft, base: /Users/jinhua/Documents/GitHub/CombFFT, plugins: List(<none>))) took 4.971973ms
+[debug] [Loading] Done in /Users/jinhua/Documents/GitHub/CombFFT, returning: (combfft)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2617.059069ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.929146ms
+[debug]   Load.loadUnit(file:/Users/jinhua/Documents/GitHub/CombFFT/, ...) took 4392.220752ms
+[debug] Load.apply: load took 4393.883365ms
+[debug] Load.apply: resolveProjects took 0.146082ms
+[debug] Load.apply: finalTransforms took 8.496606ms
+[debug] Load.apply: config.delegates took 0.295927ms
+[debug] Load.apply: Def.make(settings)... took 56.573378ms
+[debug] Load.apply: structureIndex took 19.862326ms
+[debug] Load.apply: mkStreams took 0.003214ms
+[info] set current project to CombFFT (in build file:/Users/jinhua/Documents/GitHub/CombFFT/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/jinhua/.sbt/1.0/server/0840718386e881ac8952/sock
+[info] started sbt server

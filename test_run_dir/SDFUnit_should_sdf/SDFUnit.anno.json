@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/SDFUnit_should_sdf/SDFUnit.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~SDFUnit|SDFUnit>io_out_re",
+    "sources":[
+      "~SDFUnit|SDFUnit>io_in_re"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~SDFUnit|SDFUnit>io_out_im",
+    "sources":[
+      "~SDFUnit|SDFUnit>io_in_im"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/SDFUnit_should_sdf"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/RealAddSub_should_add_and_sub/RealAddSub.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~RealAddSub|RealAddSub>io_A",
+    "sources":[
+      "~RealAddSub|RealAddSub>io_a",
+      "~RealAddSub|RealAddSub>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~RealAddSub|RealAddSub>io_B",
+    "sources":[
+      "~RealAddSub|RealAddSub>io_a",
+      "~RealAddSub|RealAddSub>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/RealAddSub_should_add_and_sub"
+  }
+]

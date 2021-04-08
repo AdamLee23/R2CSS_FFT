@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1qZNEEXlUdvVDCkXbvxKjE3kFiZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
+  </component>
+  <component name="RunManager" selected="ScalaTest.FFTTest.CombFFT should perform FFT">
+    <configuration name="BasicTest.CombFFT should do FFT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="CombFFT" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="BasicTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTest.Commutator should commute numbers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="CombFFT" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="BasicTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTest.Reorder should reorder data" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="CombFFT" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="BasicTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FFTTest.CombFFT should perform FFT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="CombFFT" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="FFTTest" />
+      <option name="testName" value="CombFFT should perform FFT" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FFTTest.R2MDC_DIF_FFT should perform DIFFFT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="CombFFT" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="FFTTest" />
+      <option name="testName" value="R2MDC_DIF_FFT should perform DIFFFT" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.FFTTest.CombFFT should perform FFT" />
+        <item itemvalue="ScalaTest.FFTTest.R2MDC_DIF_FFT should perform DIFFFT" />
+        <item itemvalue="ScalaTest.FFTTest.R2MDC_DIF_FFT should perform DIFFFT" />
+        <item itemvalue="ScalaTest.BasicTest.Reorder should reorder data" />
+        <item itemvalue="ScalaTest.BasicTest.Commutator should commute numbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="CombFFT" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/jinhua/Documents/GitHub/CombFFT/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="CombFFT-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3234566332239" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3595540149" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2513440544" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../ChiselProjects" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="" />
+      <created>1617283038688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617283038688</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1018" y="468" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1617541254359">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state x="1018" y="468" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.2560.1341@0.25.2560.1341" timestamp="1617541254359" />
+    <state width="2518" height="407" key="GridCell.Tab.0.bottom" timestamp="1617863977349">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="407" key="GridCell.Tab.0.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977349" />
+    <state width="2518" height="407" key="GridCell.Tab.0.center" timestamp="1617863977348">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="407" key="GridCell.Tab.0.center/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977348" />
+    <state width="2518" height="407" key="GridCell.Tab.0.left" timestamp="1617863977348">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="407" key="GridCell.Tab.0.left/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977348" />
+    <state width="2518" height="407" key="GridCell.Tab.0.right" timestamp="1617863977349">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="407" key="GridCell.Tab.0.right/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977349" />
+    <state width="2518" height="786" key="GridCell.Tab.1.bottom" timestamp="1617723533446">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="786" key="GridCell.Tab.1.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1617723533446" />
+    <state width="2518" height="786" key="GridCell.Tab.1.center" timestamp="1617723533446">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="786" key="GridCell.Tab.1.center/0.25.2560.1341@0.25.2560.1341" timestamp="1617723533446" />
+    <state width="2518" height="786" key="GridCell.Tab.1.left" timestamp="1617723533445">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="786" key="GridCell.Tab.1.left/0.25.2560.1341@0.25.2560.1341" timestamp="1617723533445" />
+    <state width="2518" height="786" key="GridCell.Tab.1.right" timestamp="1617723533446">
+      <screen x="0" y="25" width="2560" height="1341" />
+    </state>
+    <state width="2518" height="786" key="GridCell.Tab.1.right/0.25.2560.1341@0.25.2560.1341" timestamp="1617723533446" />
+  </component>
+</project>

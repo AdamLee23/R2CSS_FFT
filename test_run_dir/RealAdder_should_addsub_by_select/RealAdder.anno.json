@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/RealAdder_should_addsub_by_select/RealAdder.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~RealAdder|RealAdder>io_out",
+    "sources":[
+      "~RealAdder|RealAdder>io_s",
+      "~RealAdder|RealAdder>io_in1",
+      "~RealAdder|RealAdder>io_in2"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/RealAdder_should_addsub_by_select"
+  }
+]

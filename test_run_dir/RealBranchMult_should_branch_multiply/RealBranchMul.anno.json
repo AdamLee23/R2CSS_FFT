@@ -1,0 +1,30 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/RealBranchMult_should_branch_multiply/RealBranchMul.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~RealBranchMul|RealBranchMul>io_out2",
+    "sources":[
+      "~RealBranchMul|RealBranchMul>io_w_im_in",
+      "~RealBranchMul|RealBranchMul>io_dataIn"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~RealBranchMul|RealBranchMul>io_out1",
+    "sources":[
+      "~RealBranchMul|RealBranchMul>io_w_re_in",
+      "~RealBranchMul|RealBranchMul>io_dataIn"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/RealBranchMult_should_branch_multiply"
+  }
+]

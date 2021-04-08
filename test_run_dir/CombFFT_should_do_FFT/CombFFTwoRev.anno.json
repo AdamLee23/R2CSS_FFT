@@ -1,0 +1,32 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/CombFFT_should_do_FFT/CombFFTwoRev.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~CombFFTwoRev|Commutator",
+    "duplicate":"~CombFFTwoRev|CombFFTwoRev/inst:Commutator",
+    "index":0.0
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~CombFFTwoRev|Commutator_2",
+    "duplicate":"~CombFFTwoRev|CombFFTwoRev/inst_5:Commutator",
+    "index":0.45454545454545453
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~CombFFTwoRev|Commutator_3",
+    "duplicate":"~CombFFTwoRev|CombFFTwoRev/inst_6:Commutator",
+    "index":0.6363636363636364
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/CombFFT_should_do_FFT"
+  }
+]
