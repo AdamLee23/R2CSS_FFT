@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_combFFT.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_combFFT.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +115,7 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="FFTTest" />
+      <option name="testName" value="CombFFT should perform FFT" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -146,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="ScalaTest.FFTTest.CombFFT should perform FFT" />
+        <item itemvalue="ScalaTest.FFTTest.CombFFT should perform FFT" />
         <item itemvalue="ScalaTest.FFTTest.R2MDC_DIF_FFT should perform DIFFFT" />
         <item itemvalue="ScalaTest.FFTTest.R2MDC_DIF_FFT should perform DIFFFT" />
         <item itemvalue="ScalaTest.BasicTest.Reorder should reorder data" />
-        <item itemvalue="ScalaTest.BasicTest.Commutator should commute numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -209,22 +209,22 @@
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
     <state x="1018" y="468" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.2560.1341@0.25.2560.1341" timestamp="1617541254359" />
-    <state width="2518" height="151" key="GridCell.Tab.0.bottom" timestamp="1617896880185">
+    <state width="2518" height="744" key="GridCell.Tab.0.bottom" timestamp="1617952018116">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="151" key="GridCell.Tab.0.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880185" />
-    <state width="2518" height="151" key="GridCell.Tab.0.center" timestamp="1617896880185">
+    <state width="2518" height="744" key="GridCell.Tab.0.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1617952018116" />
+    <state width="2518" height="744" key="GridCell.Tab.0.center" timestamp="1617952018116">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="151" key="GridCell.Tab.0.center/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880185" />
-    <state width="2518" height="151" key="GridCell.Tab.0.left" timestamp="1617896880184">
+    <state width="2518" height="744" key="GridCell.Tab.0.center/0.25.2560.1341@0.25.2560.1341" timestamp="1617952018116" />
+    <state width="2518" height="744" key="GridCell.Tab.0.left" timestamp="1617952018115">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="151" key="GridCell.Tab.0.left/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880184" />
-    <state width="2518" height="151" key="GridCell.Tab.0.right" timestamp="1617896880185">
+    <state width="2518" height="744" key="GridCell.Tab.0.left/0.25.2560.1341@0.25.2560.1341" timestamp="1617952018115" />
+    <state width="2518" height="744" key="GridCell.Tab.0.right" timestamp="1617952018116">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="151" key="GridCell.Tab.0.right/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880185" />
+    <state width="2518" height="744" key="GridCell.Tab.0.right/0.25.2560.1341@0.25.2560.1341" timestamp="1617952018116" />
     <state width="2518" height="786" key="GridCell.Tab.1.bottom" timestamp="1617723533446">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>

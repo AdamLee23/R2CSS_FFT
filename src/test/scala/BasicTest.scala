@@ -200,7 +200,7 @@ class FFTTest extends FlatSpec with ChiselScalatestTester with Matchers
         ovNum += ovNum1
         error += errorOne
         val errorOnePercent = errorOne * 100
-        println(f"In this sample, error rate is : $errorOnePercent%.2f%% / number of overflows is: $ovNum1%d\n")
+        println(f"In this sample, error rate is : $errorOnePercent%.2f%% | number of overflows is: $ovNum1%d\n")
       }
       println()
       error /= iterNum
