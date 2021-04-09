@@ -5,4 +5,4 @@ R2CSS FFT module defined in /src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_co
 
 Testbench defined in /src/test/scala/BasicTest.scala  
 
-For more information, refer to *<zhihu_link>*
+For more information, refer to *https://zhuanlan.zhihu.com/p/362858878*
