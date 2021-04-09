@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="" />
+    <list default="true" id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +17,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1qZNEEXlUdvVDCkXbvxKjE3kFiZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -105,7 +111,6 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="FFTTest" />
-      <option name="testName" value="CombFFT should perform FFT" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -126,7 +131,6 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="FFTTest" />
-      <option name="testName" value="R2MDC_DIF_FFT should perform DIFFFT" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -200,22 +204,22 @@
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
     <state x="1018" y="468" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.2560.1341@0.25.2560.1341" timestamp="1617541254359" />
-    <state width="2518" height="407" key="GridCell.Tab.0.bottom" timestamp="1617863977349">
+    <state width="2518" height="151" key="GridCell.Tab.0.bottom" timestamp="1617896880185">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="407" key="GridCell.Tab.0.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977349" />
-    <state width="2518" height="407" key="GridCell.Tab.0.center" timestamp="1617863977348">
+    <state width="2518" height="151" key="GridCell.Tab.0.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880185" />
+    <state width="2518" height="151" key="GridCell.Tab.0.center" timestamp="1617896880185">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="407" key="GridCell.Tab.0.center/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977348" />
-    <state width="2518" height="407" key="GridCell.Tab.0.left" timestamp="1617863977348">
+    <state width="2518" height="151" key="GridCell.Tab.0.center/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880185" />
+    <state width="2518" height="151" key="GridCell.Tab.0.left" timestamp="1617896880184">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="407" key="GridCell.Tab.0.left/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977348" />
-    <state width="2518" height="407" key="GridCell.Tab.0.right" timestamp="1617863977349">
+    <state width="2518" height="151" key="GridCell.Tab.0.left/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880184" />
+    <state width="2518" height="151" key="GridCell.Tab.0.right" timestamp="1617896880185">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
-    <state width="2518" height="407" key="GridCell.Tab.0.right/0.25.2560.1341@0.25.2560.1341" timestamp="1617863977349" />
+    <state width="2518" height="151" key="GridCell.Tab.0.right/0.25.2560.1341@0.25.2560.1341" timestamp="1617896880185" />
     <state width="2518" height="786" key="GridCell.Tab.1.bottom" timestamp="1617723533446">
       <screen x="0" y="25" width="2560" height="1341" />
     </state>
