@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_combFFT.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_combFFT.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +12,10 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Downloads" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -175,7 +180,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3234566332239" />
+        <entry key="$PROJECT_DIR$" value="3235878424870" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3595540149" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2513440544" />
       </map>

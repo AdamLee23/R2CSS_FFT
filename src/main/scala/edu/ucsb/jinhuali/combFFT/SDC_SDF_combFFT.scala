@@ -284,7 +284,7 @@ class CombFFT extends Module with HasConfig {
     (re_s(index), im_s(index))
   }
 
-  // twiddle factor index determination
+  // twiddle factor index ROM for SDC stage s_i
   def WIndexVec(s_i: Int) = {
     val v = for {i <- 0 until FFTLength / 2 by pow(2, s_i).toInt} yield i
     val even = for {i <- v.indices if i % 2 == 0} yield i
