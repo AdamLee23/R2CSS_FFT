@@ -231,7 +231,7 @@ object RealAdder {
   }
 }
 
-/** bit reverser for reordering data to normal order
+/** bit reverser for reordering data into normal order
  *  basically a RAM with specified size
  *  first half data: reverse least log2(FFTLength)-1 bits and add FFTLength/2 to get correct index
  *  last half data: reverse least log2(FFTLength)-1 bits to get correct index

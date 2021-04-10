@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b426a7-0457-4998-8c5e-c6320d06ac3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CombFFT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CombFFT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_combFFT.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/edu/ucsb/jinhuali/combFFT/SDC_SDF_combFFT.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run_dir/CombFFT_should_perform_FFT/CombFFT.fir" beforeDir="false" afterPath="$PROJECT_DIR$/test_run_dir/CombFFT_should_perform_FFT/CombFFT.fir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run_dir/CombFFT_should_perform_FFT/CombFFT.lo.fir" beforeDir="false" afterPath="$PROJECT_DIR$/test_run_dir/CombFFT_should_perform_FFT/CombFFT.lo.fir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run_dir/Reorder_should_reorder_data/Reorder.fir" beforeDir="false" afterPath="$PROJECT_DIR$/test_run_dir/Reorder_should_reorder_data/Reorder.fir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run_dir/Reorder_should_reorder_data/Reorder.lo.fir" beforeDir="false" afterPath="$PROJECT_DIR$/test_run_dir/Reorder_should_reorder_data/Reorder.lo.fir" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
