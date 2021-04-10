@@ -233,8 +233,8 @@ object RealAdder {
 
 /** bit reverser for reordering data to normal order
  *  basically a RAM with specified size
- *  first half data: reverse least log2(FFT)-1 bits and add 8 to get correct index
- *  last half data: reverse least log2(FFT)-1 bits to get correct index
+ *  first half data: reverse least log2(FFTLength)-1 bits and add FFTLength/2 to get correct index
+ *  last half data: reverse least log2(FFTLength)-1 bits to get correct index
  */
 class Reorder extends Module with HasConfig {
   val io = IO(new Bundle() {
@@ -245,21 +245,19 @@ class Reorder extends Module with HasConfig {
   })
   val ram = Mem(FFTLength, new MyComplex)
   val width = log2Ceil(FFTLength)
-  val inCounter = RegInit(0.U(width.W))
-  val inCounterCut = RegInit(0.U((width-1).W))
+  val inCounter = RegInit(0.U((width-1).W))
+  val ICNextBit = RegInit(0.U(1.W))
   val outCounter = RegInit(0.U(width.W))
-  val index0 = Reverse(inCounterCut)
-  val index1 = Reverse(inCounterCut) + (FFTLength / 2).U
-  when (io.inValid || inCounter =/= 0.U) {
-    when (inCounter < (FFTLength / 2).U) {
-      ram.write(index1, io.in)
-    } otherwise {
-      ram.write(index0, io.in)
-    }
+  val index0 = Reverse(inCounter)
+  val index1 = Reverse(inCounter) + (FFTLength / 2).U
+  when (io.inValid || (inCounter =/= 0.U || ICNextBit =/= 0.U)) {
+    ram.write(Mux(ICNextBit === 0.U, index1, index0), io.in)
     inCounter := inCounter + 1.U
-    inCounterCut := inCounterCut + 1.U
+    when (inCounter === (FFTLength / 2 - 1).U) {
+      ICNextBit := ICNextBit + 1.U
+    }
   }
-  io.outValid := (RegNext(inCounter) === (FFTLength - 1).U) || (outCounter =/= 0.U)
+  io.outValid := (RegNext(Cat(ICNextBit, inCounter)) === (FFTLength - 1).U) || (outCounter =/= 0.U)
   when (io.outValid) {
     outCounter := outCounter + 1.U
   }

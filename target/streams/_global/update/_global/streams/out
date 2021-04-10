@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
+[warn] chisel3_2.12-3.4.2.jar no longer exists at /Users/jinhua/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.12/3.4.2/chisel3_2.12-3.4.2.jar
+[debug] not up to date. inChanged = false, force = false
 [debug] Updating ...
 [debug] Done updating 
